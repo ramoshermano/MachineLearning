@@ -59,7 +59,7 @@ Saídas em `outputs/`:
 
 ## Como usar na consultoria (playbook)
 
-1. **Demo de 15 min** — rode `python main.py` e mostre Scout → Narrator.
+1. **Demo de 15 min** — rode `python3 main.py` e mostre Scout → Narrator.
 2. **Diagnóstico pago** — peça 2 CSVs do cliente (funil + projetos) e rode a esteira.
 3. **Upsell** — use a escada gerada (Diagnóstico → Sprint → Programa) na proposta.
 4. **Conteúdo** — publique o post LinkedIn gerado e grave o pitch 60s.
