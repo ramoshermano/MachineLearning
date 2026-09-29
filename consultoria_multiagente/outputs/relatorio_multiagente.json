@@ -1,0 +1,160 @@
+{
+  "brand": "Hermano Ramos · Consultoria",
+  "pipeline": [
+    "scout",
+    "estimator",
+    "strategist",
+    "narrator"
+  ],
+  "results": {
+    "scout": {
+      "agent": "scout",
+      "summary": "Maturidade do funil: 47.8/100. Início=53, palestras=40, contato=62, compra=33, patrocínio=5.",
+      "insights": [
+        "99 leads no funil; conversão atual 33.3%.",
+        "31 leads quentes (contato sem compra) — prioridade de follow-up.",
+        "34 leads mornos (palestra sem contato).",
+        "37 clientes/patrocinadores ativos para prova social."
+      ],
+      "metrics": {
+        "total_leads": 99,
+        "conversion_rate": 0.3333,
+        "contact_rate": 0.6263,
+        "lecture_rate": 0.404,
+        "sponsor_rate": 0.0505,
+        "maturity_score": 47.8,
+        "hot_leads": 31,
+        "warm_leads": 34,
+        "cold_leads": 0,
+        "champions": 37
+      },
+      "recommendations": [
+        "Rodar sequência de fechamento em 31 leads quentes esta semana."
+      ]
+    },
+    "estimator": {
+      "agent": "estimator",
+      "summary": "Taxa de venda R$ 120/h (histórico mediano R$ 68/h). Entrada recomendada: sprint_mvp (R$ 4,800 / 40h).",
+      "insights": [
+        "Ticket mediano (faixa comercial): R$ 3,998 em ~70h (≈ R$ 68/h histórico; taxa de venda R$ 120/h).",
+        "Faixa interquartil de preço: R$ 1,364 – R$ 9,621.",
+        "Taxa de não-finalização: 47.4% — embutir margem de risco no full.",
+        "Pacote de entrada sugerido: sprint_mvp (R$ 4,800)."
+      ],
+      "metrics": {
+        "n_projects": 2457,
+        "n_finished": 1292,
+        "n_unfinished": 1165,
+        "median_hours": 70.0,
+        "median_price": 3998.0,
+        "median_hourly_rate": 68.21,
+        "sell_hourly_rate": 120.0,
+        "price_p25": 1363.5,
+        "price_p75": 9621.25,
+        "unfinished_rate": 0.4742,
+        "entry_package": "sprint_mvp",
+        "packages": {
+          "diagnostico": {
+            "horas": 12.0,
+            "preco": 1440.0,
+            "objetivo": "Mapear dor, dados e quick wins em 1–2 semanas."
+          },
+          "sprint_mvp": {
+            "horas": 40.0,
+            "preco": 4800.0,
+            "objetivo": "Entregar um piloto multiagente utilizável pelo time."
+          },
+          "programa_completo": {
+            "horas": 80.0,
+            "preco": 10738.0,
+            "objetivo": "Implantar esteira + playbooks + handoff operacional."
+          }
+        }
+      },
+      "recommendations": [
+        "Funil em aquecimento: sprint prova valor e abre upsell.",
+        "Ancorar proposta mostrando Diagnóstico → Sprint → Programa.",
+        "Condicionar desconto a escopo fechado e critérios de aceite claros.",
+        "Histórico de abandono alto: milestone payments e kickoff pago obrigatório."
+      ]
+    },
+    "strategist": {
+      "agent": "strategist",
+      "summary": "Oferta sprint_mvp para Consultorias e studios que querem produto AI-led. Âncora R$ 4,800 — Entregar um piloto multiagente utilizável pelo time.",
+      "insights": [
+        "ICP prioritário: Consultorias e studios que querem produto AI-led — Têm demanda, mas falta sistema repetível de discovery → proposta.",
+        "Posicionamento: Sprint multiagente: da dor do cliente a um piloto rodando com papéis claros e métricas de negócio.",
+        "Prova social interna: 99 leads analisados, 2457 projetos no histórico de pricing, ticket mediano R$ 3,998.",
+        "Movimento comercial imediato: Contatar 10 leads quentes com a oferta sprint_mvp."
+      ],
+      "metrics": {
+        "icp": {
+          "label": "Consultorias e studios que querem produto AI-led",
+          "why": "Têm demanda, mas falta sistema repetível de discovery → proposta."
+        },
+        "positioning": "Sprint multiagente: da dor do cliente a um piloto rodando com papéis claros e métricas de negócio.",
+        "pillars": [
+          "Descoberta orientada a dados (funil + histórico de projetos)",
+          "Esteira multiagente com papéis claros e handoff",
+          "Entrega demoável em semanas, não meses",
+          "Playbooks reutilizáveis para o time do cliente"
+        ],
+        "entry_package": "sprint_mvp",
+        "entry_price": 4800.0,
+        "entry_hours": 40.0,
+        "ladder": [
+          {
+            "name": "diagnostico",
+            "price": 1440.0,
+            "hours": 12.0,
+            "objetivo": "Mapear dor, dados e quick wins em 1–2 semanas."
+          },
+          {
+            "name": "sprint_mvp",
+            "price": 4800.0,
+            "hours": 40.0,
+            "objetivo": "Entregar um piloto multiagente utilizável pelo time."
+          },
+          {
+            "name": "programa_completo",
+            "price": 10738.0,
+            "hours": 80.0,
+            "objetivo": "Implantar esteira + playbooks + handoff operacional."
+          }
+        ],
+        "next_moves": [
+          "Contatar 10 leads quentes com a oferta sprint_mvp.",
+          "Na proposta, mostrar escada: Diagnóstico → Sprint (R$ 4,800) → Programa (R$ 10,738).",
+          "Publicar um case curto da demo (antes/depois do funil) no portfólio."
+        ],
+        "proof": "99 leads analisados, 2457 projetos no histórico de pricing, ticket mediano R$ 3,998."
+      },
+      "recommendations": [
+        "Abrir conversas com oferta âncora: sprint_mvp (R$ 4,800).",
+        "Na call, mostrar a esteira Scout → Estimator → Strategist → Narrator ao vivo.",
+        "Fechar diagnóstico pago em 48h com briefing de 5 perguntas.",
+        "Upsell natural: cada pacote desbloqueia o seguinte com crédito parcial."
+      ]
+    },
+    "narrator": {
+      "agent": "narrator",
+      "summary": "Narrativas comerciais geradas: one-pager, pitch 60s e post LinkedIn.",
+      "insights": [
+        "One-pager pronto para PDF/Notion.",
+        "Pitch de 60s para call ou vídeo curto.",
+        "Post LinkedIn para atrair o ICP esta semana."
+      ],
+      "metrics": {
+        "one_pager": "# Hermano Ramos · Consultoria\n## Oferta multiagente · 29/09/2026\n\n### Para quem\nConsultorias e studios que querem produto AI-led\n_Têm demanda, mas falta sistema repetível de discovery → proposta._\n\n### Promessa\nSprint multiagente: da dor do cliente a um piloto rodando com papéis claros e métricas de negócio.\n\n### Como funciona (esteira)\n1. **Scout** — qualifica o funil e acha leads quentes\n2. **Estimator** — calcula faixas de preço e risco com o seu histórico\n3. **Strategist** — empacota a escada de oferta\n4. **Narrator** — escreve proposta, pitch e conteúdo\n\n### Pilares\n  • Descoberta orientada a dados (funil + histórico de projetos)\n  • Esteira multiagente com papéis claros e handoff\n  • Entrega demoável em semanas, não meses\n  • Playbooks reutilizáveis para o time do cliente\n\n### Escada comercial\n  • Diagnostico: R$ 1,440 · 12h — Mapear dor, dados e quick wins em 1–2 semanas.\n  • Sprint Mvp: R$ 4,800 · 40h — Entregar um piloto multiagente utilizável pelo time.\n  • Programa Completo: R$ 10,738 · 80h — Implantar esteira + playbooks + handoff operacional.\n\n### Oferta de entrada sugerida\n**Sprint Mvp** — R$ 4,800 · 40h\n\n### Prova a partir dos seus dados\n- 99 leads no funil · maturidade 47.8/100\n- 2457 projetos · ticket mediano R$ 3,998\n- 31 leads quentes prontos para abordagem\n\n### Próximo passo\nAgendar diagnóstico (briefing de 5 perguntas) e sair com mapa + preço em até 7 dias.\n",
+        "pitch_60s": "Eu sou Hermano Ramos · Consultoria. Ajudo times a transformar consultoria em sistema: agentes especializados que qualificam leads, precificam projetos e escrevem a oferta. Sprint multiagente: da dor do cliente a um piloto rodando com papéis claros e métricas de negócio. Começamos pelo sprint mvp por cerca de R$ 4,800 — você vê a esteira rodando nos seus dados ainda na primeira semana.",
+        "linkedin_post": "Consultoria não escala no improviso.\n\nMontei uma esteira multiagente com 4 papéis:\nScout (funil) → Estimator (preço) → Strategist (oferta) → Narrator (proposta).\n\nNos meus dados de demo:\n• 99 leads · maturidade 47.8/100\n• 2457 projetos · ticket mediano R$ 3,998\n• Entrada sugerida: sprint mvp ≈ R$ 4,800\n\nSe você vende serviço e quer repetibilidade sem perder o toque humano, DM aberta.\n\n— Hermano Ramos · Consultoria\n",
+        "generated_on": "2026-09-29"
+      },
+      "recommendations": [
+        "Enviar o one-pager após a call de discovery.",
+        "Gravar o pitch 60s e fixar no perfil.",
+        "Publicar o post e responder comentários em <2h."
+      ]
+    }
+  }
+}
